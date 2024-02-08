@@ -1,4 +1,4 @@
-# Module 7 & 8 - Group Project - Netflix Catalog Analysis
+Netflix Catalog Analysis
 Group Project - Week 7 & 8 - Data Analytics Boot Camp - University of Oregon
 
 ![Don't Panic Productions presents A Netflix Proposal](images/title_banner.jpg)
@@ -18,7 +18,7 @@ this will go into formulating our ideal project to pitch to Netflix.
 
 
 ## Process:
-### Media Type Analysis:
+### Media Type Analysis:  (Travis Cook)
 Our initial analysis aimed to determine Netflix's preference between films and TV series. It revealed that 64% of their catalog consists of movies, suggesting a higher 
 likelihood of them acquiring a film project.  However, we discovered that TV series tend to receive higher ratings on IMDb through histogram and t-test comparisons, 
 indicating a significant statistical difference in ratings. Despite TV series receiving higher ratings, we favored producing a movie due to its 
@@ -28,12 +28,12 @@ We also wanted to see whether varying movie lengths received different ratings. 
 determine if there is more to this, we created a scatterplot analysis of runtime against IMDb ratings to investigate any correlation. The resulting r-value of 0.13 
 signifies a very weak correlation, suggesting that movie length is unlikely to reflect rating and should not be used to influence our decision-making.
 
-### Cleaning our IMDB Scores:
+**Cleaning our IMDB Scores:**
 In our dataset, the number of IMDb votes for each title is visible. Obscure titles with only a few votes can disproportionately influence the IMDb score, impacting the 
 overall average. To address this, when looping into movies vs. tv shows, we applied quartiles to remove the lowest 25% of vote counts, while still retaining the top 25%. 
 This approach helps mitigate the impact of lower outliers on the IMDb scores, ensuring a more accurate representation of each movie.
 
-### Genre Analysis:
+### Genre Analysis:  (Matthew Groh)
 After deciding that movies are more dominant on Netflix, our next analysis aimed to determine
 which genres are most common and popular in these movies. When looking at individual genres,
 we found that about 65% of Netflix movies contain the genre "drama" and almost 40% contain
@@ -47,7 +47,7 @@ top genres were most common on Netflix. This analysis showed that "crime/thrille
 were easily the most popular genre-pairs, present in about 35% and 30% of Netflix movies respectively.
 Therefore, we decided to combine these top results to make our movie a crime/thriller/comedy/romance.
 
-### Keyword Analysis:
+### Keyword Analysis:  
 After determining the genres for our movie, our next analysis aimed to determine what elements and themes
 we should include in our movie based on common keywords in Netflix movies of those genres.
 When looking at crime/thriller movies, "police" was the most common keyword, appearing in about 17.5% of
@@ -59,7 +59,7 @@ largely the basic elements of a murder case and investigation and the most popul
 young love forming primarily in a school setting. Since we're combining these genre-pairs, our movie will contain
 young love forming in the midst of a murder investigation.
 
-### Actor Analysis:
+### Actor Analysis:  (Marshal Rittenger)
 For our actor analysis, we had to merge the two CSV files to get the full cast list for each film entry. Then from that we created another dataframe that grouped
 the relevant data by actor. In this case, what was most important was the mean IMDB score for each actor and the sum total of votes on IMDB that their films and
 movies received. We also only considered actors in more than one production on Netflix, to improve our sample size. We grouped and sorted first by actors 
@@ -81,7 +81,7 @@ the top of both lists. We also did analyses of average IMDB and TMDB ratings and
 higher on average. Because we knew our presentation time would be limited and we didn't quite have the time for further analysis, we didn't let this finding affect 
 our final decisions. 
 
-### Country Partnerships Analysis:
+### Country Partnerships Analysis:  (Julia Olson)
 We began our country partnerships analysis by determining which countries had the most productions. We broke this down by the total number of productions, the total number of movies, and the total number of shows. We determined that the US had the most productions, with a grand total of 1822, making up 60.2% of all productions on Netflix. Followed by the US was India, which had 568 productions, which was about 18.8% of all productions. The final 21% consisted of Japan with 242 productions, the UK with 204 productions, and Korea with 192 productions. We also narrowed our analysis to the last ten years and found similar results. Looking at just movies, we found that the US made the most movies, with a total of 1081 movies produced (or 57.8%), then India with 530 movies produced (or 28.4%), then Japan with 89 movies produced (or 4.8%), then Spain with 87 movies produced (or 4.7%), and lastly, the UK with 82 movies produced (or 4.4%). Looking at just shows, we found that the US remained on top with 741 shows produced (or 60.1%), followed by Japan with 153 shows (or 12.4%), Korea with 150 shows (or 12.2%), the UK with 122 shows (or 9.9%), and Spain with 66 shows (or 5.4%). While India was second to the US in the total number of productions and total number of movies produced, it did not make the list of countries with the most shows produced. However, given that we decided we would be making a movie, and not a show, our analysis points to  India as a country we would want to partner with, since it seems like they are able to bump out productions at a rapid rate. 
 
 We then examined which countries with the most productions had the highest IMDb scores on average. While the US and India made the most productions, they did not rank the highest when it came to IMDb scores. Instead, Korea, with an IMDb score of 7.25, came out on top. Following Korea was Japan with an IMDb score of 7.05, then the UK with an IMDb score of 7.01, and finally the US with an IMDb score of 6.55 and India with and IMDb score of 6.41. However, when we examined the highest IMDb scores on average for just movies we found that Japan ranked the highest at 6.76, then the UK at 6.67, then India at 6.38, then the US at 6.3, and lastly, Korea, at 6.28. As for shows, Korea also had the highest score, that being 7.52, followed by the UK at 7.24, Japan at 7.22, the US at 6.99, and India at 6.77. Given these results, especially in regards to the average IMDb score for movies, we determined that Japan would also be a good partner, since they seem to produce higher quality movies.
@@ -93,8 +93,16 @@ in India and Japan. Based on the data that we had, we came up with an excellent 
 that you often have to make do with the data that you have and even then it might not always be clear what decisions you should make. At the end of the day, your goals have 
 to guide you as much as the data does. 
 
+## Our Movie Proposal:
+
+*In this global crime odyssey, Detective Frank (Leonardo DiCaprio) partners with his quirky sidekick, Murphy (Cillian Murphy), and the dynamic duo of Detective Harper (Shanola Hampton) and Forensic Expert Turner (Emily Hampshire). Together, they embark on a murder investigation spanning the United States, India, and Japan. As they navigate diverse landscapes, the case becomes entangled with college life, revealing unexpected love stories amid the complexities of the crime. This thrilling crime-comedy promises suspense, laughter, and cross-cultural surprises with a stellar ensemble cast.*
+
+![Crossing Borders:  Crime and Love Knows No Boundries](images/MoviePoster_small.jpg)
+
+
 ---
 
 ## Additional Information:
-Data Set:  https://www.kaggle.com/datasets/victorsoeiro/netflix-tv-shows-and-movies
-Disclaimer:  This is a tongue-in-cheek exercise to find the "ideal movie" to sell to Netflix.  This group project was done for a class and is not associated with Netflix or any other production company.
+- **Presentation deck:**  \presentation\PresentationDeck_v3.pdf
+- **Data Set:**  https://www.kaggle.com/datasets/victorsoeiro/netflix-tv-shows-and-movies
+- **Disclaimer:**  This is a tongue-in-cheek exercise to find the "ideal movie" to sell to Netflix.  This group project was done for a class and is not associated with Netflix or any other production company.
