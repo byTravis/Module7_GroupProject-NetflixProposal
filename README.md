@@ -11,7 +11,7 @@ Group Project - Week 7 & 8 - Data Analytics Boot Camp - University of Oregon
 - [Julia Olson](https://github.com/juliahachenburg)
 
 ## Backstory:  
-We are a production company (Don't Panic Productions) that will be pitching a Netflix original. Before that, we need to analyze the Netflix catalog and determine what 
+We are a production company (*Don't Panic Productions*) that will be pitching a Netflix original. Before that, we need to analyze the Netflix catalog and determine what 
 types of productions would be most likely to succeed. Would Netflix be more likely to buy a TV show versus a movie? What genres have been popular recently, and what 
 elements are common in those genres? What combinations of leading actors would be successful? And finally, what other countries should we partner with and why? All of 
 this will go into formulating our ideal project to pitch to Netflix.
@@ -94,10 +94,9 @@ that you often have to make do with the data that you have and even then it migh
 to guide you as much as the data does. 
 
 ## Our Movie Proposal:
+![Crossing Borders:  Crime and Love Knows No Boundries](images/MoviePoster_small.jpg)
 
 *In this global crime odyssey, Detective Frank (Leonardo DiCaprio) partners with his quirky sidekick, Murphy (Cillian Murphy), and the dynamic duo of Detective Harper (Shanola Hampton) and Forensic Expert Turner (Emily Hampshire). Together, they embark on a murder investigation spanning the United States, India, and Japan. As they navigate diverse landscapes, the case becomes entangled with college life, revealing unexpected love stories amid the complexities of the crime. This thrilling crime-comedy promises suspense, laughter, and cross-cultural surprises with a stellar ensemble cast.*
-
-![Crossing Borders:  Crime and Love Knows No Boundries](images/MoviePoster_small.jpg)
 
 
 ---
