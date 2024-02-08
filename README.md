@@ -1,4 +1,4 @@
-Netflix Catalog Analysis
+# Netflix Catalog Analysis
 Group Project - Week 7 & 8 - Data Analytics Boot Camp - University of Oregon
 
 ![Don't Panic Productions presents A Netflix Proposal](images/title_banner.jpg)
