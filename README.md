@@ -1,6 +1,14 @@
-# Netflix Proposal
+# Module 7 & 8 - Group Project - Netflix Catalog Analysis
+Group Project - Week 7 & 8 - Data Analytics Boot Camp - University of Oregon
+
+![Don't Panic Productions presents A Netflix Proposal](images\title_banner.jpg)
+
+
 ## Executive Producers
-Travis Cook, Matthew Groh, Marshal Rittenger, Julia Olson
+- [Travis Cook](https://github.com/byTravis)
+- [Matthew Groh](https://github.com/mdg1317)
+- [Marshal Rittenger](https://github.com/Ray-Marshal)
+- [Julia Olson](https://github.com/juliahachenburg)
 
 ## Proposal:  
 We are a production company (Don't Panic Productions) that will be pitching a Netflix original. Before that, we need to analyze the Netflix catalog and determine what 
@@ -8,8 +16,6 @@ types of productions would be most likely to succeed. Would Netflix be more like
 elements are common in those genres? What combinations of leading actors would be successful? And finally, what other countries should we partner with and why? All of 
 this will go into formulating our ideal project to pitch to Netflix.
 
-## Data Source:
-https://www.kaggle.com/datasets/victorsoeiro/netflix-tv-shows-and-movies
 
 ## Process:
 ### Media Type Analysis:
@@ -86,3 +92,9 @@ the genres crime/thriller and comedy/romance. We'd ideally cast Leonardo DiCapri
 in India and Japan. Based on the data that we had, we came up with an excellent option for the executives at Netflix that has a high probability of getting made. We learned 
 that you often have to make do with the data that you have and even then it might not always be clear what decisions you should make. At the end of the day, your goals have 
 to guide you as much as the data does. 
+
+---
+
+## Additional Information:
+Data Set:  https://www.kaggle.com/datasets/victorsoeiro/netflix-tv-shows-and-movies
+Disclaimer:  This is a tongue-in-cheek exercise to find the "ideal movie" to sell to Netflix.  This group project was done for a class and is not associated with Netflix or any other production company.
