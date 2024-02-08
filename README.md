@@ -1,4 +1,4 @@
-# BootCamp_Project1
+# Netflix Proposal
 ## Executive Producers
 Travis Cook, Matthew Groh, Marshal Rittenger, Julia Olson
 
