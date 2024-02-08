@@ -1,7 +1,7 @@
 # Module 7 & 8 - Group Project - Netflix Catalog Analysis
 Group Project - Week 7 & 8 - Data Analytics Boot Camp - University of Oregon
 
-![Don't Panic Productions presents A Netflix Proposal](images\title_banner.jpg)
+![Don't Panic Productions presents A Netflix Proposal](images/title_banner.jpg)
 
 
 ## Executive Producers
@@ -10,7 +10,7 @@ Group Project - Week 7 & 8 - Data Analytics Boot Camp - University of Oregon
 - [Marshal Rittenger](https://github.com/Ray-Marshal)
 - [Julia Olson](https://github.com/juliahachenburg)
 
-## Proposal:  
+## Backstory:  
 We are a production company (Don't Panic Productions) that will be pitching a Netflix original. Before that, we need to analyze the Netflix catalog and determine what 
 types of productions would be most likely to succeed. Would Netflix be more likely to buy a TV show versus a movie? What genres have been popular recently, and what 
 elements are common in those genres? What combinations of leading actors would be successful? And finally, what other countries should we partner with and why? All of 
